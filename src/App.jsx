@@ -8,7 +8,13 @@ function App() {
 
   return (
     <>
-      
+     <div className='mainDiv'>
+       <form className='mainForm' action="">
+         <input className='mainInput' placeholder='Enter your city' type="text" name="" id="" />
+         <button><ion-icon name="search-outline"></ion-icon></button>
+
+       </form>
+      </div> 
     </>
   )
 }
