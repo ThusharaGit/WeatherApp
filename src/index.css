@@ -19,7 +19,7 @@ body {
   height: 600px;
   width: 600px;
   border-radius: 20px;
-  background-image: linear-gradient(45deg,rgb(158, 216, 250),rgb(170, 248, 216));
+  /* background-image: linear-gradient(45deg,rgb(158, 216, 250),rgb(170, 248, 216)); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,6 +39,7 @@ input {
   text-align: center;
   border-radius: 15px;
   font-size: 1.2em;
+  box-shadow: 1px 1px 25px rgb(178, 179, 180);
   
 
 }
@@ -49,4 +50,54 @@ button{
   background-color: white;
   font-size: 1.3em;
   color: rgb(78, 78, 78);
+  box-shadow: 1px 1px 25px rgb(178, 179, 180);
+}
+
+.cityName {
+  color: white;
+  margin: 30px 5px;
+  font-size: 3em;
+  text-shadow: 1px 1px 25px rgb(178, 179, 180);
+}
+.temp{
+  color: rgb(228, 250, 31);
+  margin-bottom: 10px;
+  font-size: 3em;
+  text-shadow: 1px 1px 25px rgb(178, 179, 180);
+}
+.cityCountry {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  
+}
+
+.country {
+  margin-top: 20px;
+  background-color: rgb(228, 250, 31);
+  height: 35px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 1px 25px rgb(178, 179, 180);
+  color: rgb(85, 87, 87);
+}
+.humidityWind {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+  font-size: 1.5em;
+  color: rgb(31, 90, 117);
+  text-shadow: 3px 3px 10px rgb(178, 179, 180);
+  
+}
+.feelsLike {
+  color: rgb(31, 90, 117);
+  text-shadow: 3px 3px 10px rgb(178, 179, 180);
+}
+.world {
+  font-size: 1.2em;
 }
